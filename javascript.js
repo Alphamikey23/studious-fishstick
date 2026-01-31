@@ -4,7 +4,9 @@ function updateName() {
 }
 
 
-const button = document.querySelector("button");
+const button = document.getElementById("player1");
+const button2 = document.getElementById("player2");
 
 button.addEventListener("click",updateName);
+button2.addEventListener("click",updateName);
 
