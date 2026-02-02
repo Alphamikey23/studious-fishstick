@@ -8,6 +8,9 @@ const rl = readline.createInterface({
 
 rl.question('Guess a number: ', (input) => {
   const user_number = input; 
+  const attempts = [];
+  attempts.push(user_number);
+  console.log(attempts);
   console.log(user_number,comp_number);
   if(comp_number == user_number) {
     console.log("Success");
